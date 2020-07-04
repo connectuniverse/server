@@ -8,14 +8,14 @@ For the installation run the following script
 ./18.04/install.sh
 ```
 
->>> Note:: the installation will ask for DB password.
->>> Don't forget to note the password for the fucture use.
+> Note:: the installation will ask for DB password.
+> Don't forget to note the password for the fucture use.
 
 ### Setup site by copying the default config
 
 Copy `common/simple` to `/etc/nginx/site-available` and update domain path to use the correct location.
 
->>> Normally, I deleted the default configs from `/etc/nginx/site-available` and `/etc/nginx/site-enabled`.
+> Normally, I deleted the default configs from `/etc/nginx/site-available` and `/etc/nginx/site-enabled`.
 
 And run the following command to create symbolic
 
