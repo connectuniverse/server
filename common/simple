@@ -8,7 +8,7 @@ server {
 
     server_name your_domain;
 
-    access_log /var/logs/ningx/domain-access.log;
+    access_log /var/logs/nginx/domain-access.log;
     error_log  /var/logs/nginx/domain-error.log error;
 
     location / {

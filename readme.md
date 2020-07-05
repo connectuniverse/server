@@ -5,7 +5,7 @@
 For the installation run the following script
 
 ```
-./18.04/install.sh
+sh ./18.04/install.sh
 ```
 
 > Note:: the installation will ask for DB password.
@@ -20,7 +20,7 @@ Copy `common/simple` to `/etc/nginx/site-available` and update domain path to us
 And run the following command to create symbolic
 
 ```
-sudo ln -s /etc/nginx/sites-available/ /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/
 ```
 
 ### Setup HTTPS with Let's Encrypt Certbot
@@ -28,7 +28,7 @@ sudo ln -s /etc/nginx/sites-available/ /etc/nginx/sites-enabled/
 If this is the first time setting up, run the following script to install certbot.
 
 ```
-./18.04/letencrypt.sh
+sh ./18.04/letencrypt.sh
 ```
 
 Add domain like the following
